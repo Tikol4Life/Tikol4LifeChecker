@@ -1,0 +1,59 @@
+/*
+ * Modificado por José Javier Fernández Mendoza
+ * Versin 1.0.2
+ * Original:
+ * Stylesheet for Ambiance - Notification Plugin for jQuery
+ * Version 1.0.1
+ *
+ * Copyright (c) 2012 Richard Hsu
+ * Documentation: http://www.github.com/richardhsu/jquery.ambiance
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ */
+
+/* Notification area will be top right but feel free to modify it below. */
+#ambiance-notification {
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+/* Built in custom styling for the notifications. */
+.ambiance-title {
+  font-weight: bolder;
+}
+.ambiance-link a{
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.ambiance {
+  float: right;
+  clear: both;
+  border: 3px solid transparent;
+}
+
+.ambiance-default, .ambiance-success, .ambiance-error {
+  border-radius: 5px;
+  -moz-border-radius: 5px; /* Firefox 3.6 and earlier. */
+  padding: 10px;
+  margin: 10px;
+}
+
+.ambiance-default {
+  background: #000000;
+  color: #DDDDDD;
+}
+
+.ambiance-success {
+  background: #468847;
+  color: #DFF0D8;
+}
+
+.ambiance-error {
+  background: #B94A48;
+  color: #F2DEDE;
+}
